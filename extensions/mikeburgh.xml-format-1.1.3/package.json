@@ -1,0 +1,44 @@
+{
+	"name": "xml-format",
+	"displayName": "XML Format",
+	"description": "Format XML documents",
+	"version": "1.1.3",
+	"publisher": "mikeburgh",
+	"icon": "xml_formt.png",
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"bugs": {
+		"url": "https://github.com/mikeburgh/vscode-xml-format"
+	},
+	"homepage": "https://github.com/mikeburgh/vscode-xml-format/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikeburgh/vscode-xml-format.git"
+	},
+	"categories": [
+		"Formatters"
+	],
+	"activationEvents": [
+		"onLanguage:xml",
+		"onLanguage:xsl"
+	],
+	"main": "./extension",
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.21"
+	},
+	"__metadata": {
+		"id": "ec0a68f4-7ba0-42eb-b1f4-b6ef4f1755a7",
+		"publisherId": "8b8600fe-13f3-44b8-9308-b0c3fb27671c",
+		"publisherDisplayName": "Mike Burgh",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1669307216540,
+		"preRelease": false
+	}
+}
